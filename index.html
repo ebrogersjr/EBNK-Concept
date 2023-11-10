@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="Images/Chain.png">
+        <title>Ebank</title>
+        
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+
+    <body>
+        <!--Navigation-->
+        <header class="header">
+          <div>
+            <a href="#" class="logo"><img src="./Images/logo.svg" alt="E bank logo"></a>
+          </div>
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <nav class="navbar">           
+            <a href="#" class="active">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Company</a>
+            <a href="#">Contact</a>
+          </nav>
+        </header>
+        
+        <script>
+          hamburger = document.querySelector(".hamburger");
+          hamburger.onclick = function() {
+            navBar = document.querySelector(".navbar");
+            navBar.classList.toggle("active");
+          }
+        </script>
+
+        <!--Hero-->  
+        <section>
+          <div class="container">
+            <div class="hero-items">
+              <h1>The best way to manage your finances.</h1>
+              <p>Invest your money, earn more and save all in one digital wallet.</p>
+              <div class="btn-container">
+                <button href="#" class="primary">Log in</button>
+                <button href="#" class="secondary">Sign-up</button>
+              </div>
+            </div>
+            <img class="hero-img" src="Images/iPhone 13 Pro Max.svg" alt="Three iphones showcasing E bank mobile app pages.">
+          </div>
+        </section>
+        
+        <!--Metrics-->
+        <section id="metrics">
+          <div class=" metrics-container">
+            <div>
+              <h2 class="metrics">20M+</h2>
+              <p class="metrics">Active, satisfied users</p>
+            </div>
+            <div>
+              <h2 class="metrics">5%</h2>
+              <p class="metrics">APY on select accounts</p>
+            </div>
+            <div>
+              <h2 class="metrics">1500+</h2>
+              <p class="metrics">Compatible ATM's nationwide</p>
+            </div>
+          </div>
+        </section>
+       
+
+    <!--App features-->
+        <section>
+          <div class="container feature">
+            <div>
+              <h2>Easy to read insights</h2>
+              <p>Fully customizable dashboard to compare accounts and stay on top of your spending, savings and investments.</p>
+            </div>
+            <div>
+              <img src="./Images/monthly-insights.svg" alt="" class="app-features">
+            </div>
+            
+          </div>
+        </section>
+        
+        <section>
+          <div class="container feature feature2">
+            
+            <div>
+              <h2>One-stop-shop for all connected accounts</h2>
+              <p>All accont balances and transactions in one place. Transfer back and forth or make payment on a loan or credit card in one app.</p>
+            </div>
+            <div>
+              <img src="./Images/account-balances.svg" alt="" class="app-features1">
+            </div>
+          </div>
+        </section>
+
+    <!--Call to action-->
+    <section>
+      <div class="container cta">
+        <div>
+          <h2>Get EBNK app on the App Store or Google Play.</h2>
+          <div class="os-download">
+            <img src="./Images/apple.png" alt="apple app store button">
+            <img src="./Images/googleplay.png" alt="Google play store button">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <div class="footer">
+        <div>
+          <a href="#" class="logo"><img src="./Images/logo.svg" alt="E bank logo"></a>
+        </div>
+        <div>
+          <div class="footer-links">
+            <h3>Company</h3>
+            <a href="#">About Us</a>
+            <a href="#">Blogs</a>
+            <a href="#">Contact</a>
+            <a href="#">Careers</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-links">
+            <h3>Accounts</h3>
+            <a href="#">Checking</a>
+            <a href="#">Savings</a>
+            <a href="#">Credit Cards</a>
+            <a href="#">Investments</a>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+
+    
+
+    </body>
+
+
+
+
+</html>
