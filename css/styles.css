@@ -45,7 +45,7 @@ p.metrics {
 
 body {
     min-height: 100vh;
-    background: url("../Images/hero-background.png") no-repeat;
+    background: url("../Images/hero-background.png");
     background-size: cover;
     background-position: center;
     background-color: #0A1128;
